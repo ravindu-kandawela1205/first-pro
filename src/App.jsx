@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react";
 // import Navbar from './navbar/navbar'
-import Navbarlist from './compononets/Navbarlist'
-import Body from './body/body'
-import Middle from './middle/middle'
-import Text from './middle/text'
-import Phone from './middle/divide'
-import Dividepink from './middle/dividepink'
-import Vrman from './middle/dividelast'
-import Bell from './middle/CardsSection'
+import Navbarlist from "./compononets/Navbarlist";
+import Body from "./body/body";
+import Middle from "./middle/middle";
+import Text from "./middle/text";
+import Phone from "./middle/divide";
+import Dividepink from "./middle/dividepink";
+import Vrman from "./middle/dividelast";
+import Bell from "./middle/CardsSection";
 // import Company_names from './middle-text/CompanyLogos'
-import Company_names from './compononets/Companyimages'
-import Newsletter from './middle/newsletter'
+import Company_names from "./compononets/Companyimages";
+import Newsletter from "./middle/newsletter";
 // import Footer from './Footer/footer'
-import Footer from './compononets/Footerloop'
+import Footer from "./compononets/Footerloop";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
 
       <Phone />
 
-      <Dividepink/>
+      <Dividepink />
 
       <Vrman />
 
@@ -41,11 +41,8 @@ function App() {
 
       <Footer />
       {/* <Footer /> */}
-     
-
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function middlie_text() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default middlie_text
+export default middlie_text;

@@ -1,10 +1,8 @@
-import bellIcon from "../assets/bellang.png"; 
+import bellIcon from "../assets/bellang.png";
 
 export default function CardsSection() {
   return (
     <div className="flex flex-col md:flex-row px-4 justify-center items-center gap-8 py-16 bg-white">
-      
-     
       <div className="relative bg-gray-100 rounded-xl p-8 max-w-md text-center shadow-sm">
         <h3 className="text-lg font-bold text-gray-900">
           Lorem Ipsum is simply dummy text.
@@ -20,18 +18,14 @@ export default function CardsSection() {
         </button>
       </div>
 
-      
       <div className="relative bg-cyan-600 text-white rounded-xl p-8 max-w-md text-center shadow-lg">
-        
         <img
           src={bellIcon}
           alt="bell"
           className="absolute -top-10 right-6 w-16 h-16 transform rotate-12"
         />
 
-        <h3 className="text-lg font-bold">
-          Lorem Ipsum is simply dummy text.
-        </h3>
+        <h3 className="text-lg font-bold">Lorem Ipsum is simply dummy text.</h3>
         <p className="mt-4 text-cyan-100 leading-relaxed text-sm">
           KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
           applications and website builders measuring dozens of completed

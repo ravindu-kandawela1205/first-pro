@@ -1,14 +1,14 @@
-import Bens from '../assets/beneoshop.png'
-import capsico from '../assets/caspio.png'
-import HyperGrid from '../assets/HyperGrid.png'
-import leotrippi from '../assets/leotrippi.png'
+import Bens from "../assets/beneoshop.png";
+import capsico from "../assets/caspio.png";
+import HyperGrid from "../assets/HyperGrid.png";
+import leotrippi from "../assets/leotrippi.png";
 
 const logos = [
   { path: Bens },
   { path: capsico },
-  { path: HyperGrid},
-  { path: leotrippi }
-]
+  { path: HyperGrid },
+  { path: leotrippi },
+];
 
 export default function a() {
   return (
@@ -22,10 +22,14 @@ export default function a() {
       <div className="flex flex-wrap justify-center items-center gap-5 md:gap-10 px-4  ">
         {logos.map((item, i) => (
           <div key={i}>
-            <img src={item.path} alt="" className=' w-auto h-25 object-contain ' />
+            <img
+              src={item.path}
+              alt=""
+              className=" w-auto h-25 object-contain "
+            />
           </div>
         ))}
       </div>
     </div>
-  )
+  );
 }

@@ -1,7 +1,7 @@
-import Web from '../assets/website-content 1.png';
-import Seo from '../assets/seo-tag 1.png';
-import Imme from '../assets/immersive 1.png';
-import Code from '../assets/coding (1) 1.png';
+import Web from "../assets/website-content 1.png";
+import Seo from "../assets/seo-tag 1.png";
+import Imme from "../assets/immersive 1.png";
+import Code from "../assets/coding (1) 1.png";
 
 const services = [
   {
@@ -9,29 +9,29 @@ const services = [
     desc: "Lorem Ipsum is simply",
     icon: Web, // image path
     bg: "bg-purple-100",
-    text: "text-purple-600"
+    text: "text-purple-600",
   },
   {
     title: "SEO",
     desc: "Lorem Ipsum is simply",
     icon: Seo,
     bg: "bg-green-100",
-    text: "text-green-600"
+    text: "text-green-600",
   },
   {
     title: "AR/VR Solutions",
     desc: "Lorem Ipsum is simply",
     icon: Imme,
     bg: "bg-blue-100",
-    text: "text-blue-600"
+    text: "text-blue-600",
   },
   {
     title: "Mobile Applications",
     desc: "Lorem Ipsum is simply",
     icon: Code,
     bg: "bg-red-100",
-    text: "text-red-600"
-  }
+    text: "text-red-600",
+  },
 ];
 
 export default function Services() {
@@ -40,18 +40,16 @@ export default function Services() {
       <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 px-6">
         {services.map((service, i) => (
           <div key={i} className="flex items-start gap-4">
-           
             <div
               className={`w-16 h-16 flex items-center justify-center rounded-xl ${service.bg}`}
             >
-              <img 
-                src={service.icon} 
-                alt={service.title} 
-                className={`w-10 h-10 ${service.text}`} 
+              <img
+                src={service.icon}
+                alt={service.title}
+                className={`w-10 h-10 ${service.text}`}
               />
             </div>
 
-           
             <div>
               <h3 className="font-semibold text-lg">{service.title}</h3>
               <p className="text-gray-500 text-sm">{service.desc}</p>
