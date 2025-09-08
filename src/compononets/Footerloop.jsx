@@ -7,22 +7,22 @@ import Insta from '../assets/insta.png'
 const socail=[
     {
         path:facebook,
-        clas:'w-[34px] h-[34px]'
+        
     },
 
     {
         path:Insta,
-        clas:'w-[34px] h-[34px]'
+        
     },
 
     {
         path:twiiter,
-        clas:'w-[34px] h-[34px]'
+        
     },
 
     {
         path:linkdin,
-        clas:'w-[34px] h-[34px]'
+      
     },
 ]
 
@@ -66,7 +66,7 @@ export default function socialmedia(){
 
                 {socail.map((sc,i)=>(
                     <div key={i}>
-                       <img src={sc.path} alt="" className={clas.clas} /> 
+                       <img src={sc.path} alt="" className='w-auto h-25 object-contain' /> 
                     </div>   
                 ))}
                 

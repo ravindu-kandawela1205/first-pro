@@ -11,8 +11,8 @@ import Bell from './middle/CardsSection'
 // import Company_names from './middle-text/CompanyLogos'
 import Company_names from './compononets/Companyimages'
 import Newsletter from './middle/newsletter'
-import Footer from './Footer/footer'
-// import Footer from './compononets/Footerloop'
+// import Footer from './Footer/footer'
+import Footer from './compononets/Footerloop'
 
 function App() {
   return (
