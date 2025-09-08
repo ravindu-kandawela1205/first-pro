@@ -12,6 +12,7 @@ import Bell from './middle/CardsSection'
 import Company_names from './compononets/Companyimages'
 import Newsletter from './middle/newsletter'
 import Footer from './Footer/footer'
+// import Footer from './compononets/Footerloop'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Newsletter />
 
       <Footer />
+      {/* <Footer /> */}
      
 
 

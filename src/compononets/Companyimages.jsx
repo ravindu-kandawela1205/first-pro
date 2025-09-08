@@ -4,10 +4,10 @@ import HyperGrid from '../assets/HyperGrid.png'
 import leotrippi from '../assets/leotrippi.png'
 
 const logos = [
-  { path: Bens, class: 'h-[185px] w-[185px] object-contain' },
-  { path: capsico, class: 'h-[185px] w-[185px] object-contain' },
-  { path: HyperGrid, class: 'h-[185px] w-[185px] object-contain' },
-  { path: leotrippi, class: 'h-[185px] w-[185px] object-contain' }
+  { path: Bens },
+  { path: capsico },
+  { path: HyperGrid},
+  { path: leotrippi }
 ]
 
 export default function a() {
@@ -19,10 +19,10 @@ export default function a() {
         </h2>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-10 px-4 ">
+      <div className="flex flex-wrap justify-center items-center gap-5 md:gap-10 px-4  ">
         {logos.map((item, i) => (
           <div key={i}>
-            <img src={item.path} alt="" className={item.class} />
+            <img src={item.path} alt="" className=' w-auto h-25 object-contain ' />
           </div>
         ))}
       </div>

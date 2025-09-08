@@ -9,8 +9,8 @@ function Body() {
       
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-16">
        
-       <img src={Shape_right} alt=""  className='absolute right-0 hidden md:block'/>
-       <img src={Shape_left} alt="" className='absolute left-0 bottom-0 hidden md:block' />
+       <img src={Shape_right} alt=""  className='absolute right-0 hidden md:block lg:hidden'/>
+       <img src={Shape_left} alt="" className='absolute left-0 bottom-0 hidden md:block lg:hidden' />
         <div className="flex-1 max-w-lg space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-[36px] font-bold leading-snug">
            
