@@ -14,11 +14,11 @@ function newsletter() {
       />
 
       
-      <img
+      {/* <img
         src={pai}
         alt="c mark"
-        className="absolute top-40 left-[1200px] w-14 h-14"
-      />
+        className="absolute top-40 left-[1200px] w-14 h-14 hidden md:block sm:hidden"
+      /> */}
 
       
       <h2 className="text-xl md:text-2xl font-semibold text-gray-800 text-center mb-6">
