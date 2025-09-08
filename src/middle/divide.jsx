@@ -2,7 +2,7 @@ import React from "react";
 import phoneMockup from "../assets/phone.png";
 import Happy from "../assets/happy.png";
 import Effect_l from "../assets/effect.png";
-import Effect_2 from "../assets/effect.png";
+// import Effect_2 from "../assets/effect.png";
 export default function divide() {
   return (
     <div className="mt-6 flex items-center justify-center bg-white px-6">
