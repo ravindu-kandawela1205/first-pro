@@ -19,7 +19,7 @@ export default function a() {
         </h2>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-10 px-4">
+      <div className="flex flex-wrap justify-center items-center gap-10 px-4 ">
         {logos.map((item, i) => (
           <div key={i}>
             <img src={item.path} alt="" className={item.class} />

@@ -40,7 +40,7 @@ function footer() {
         </div>
 
         
-        <div className="flex  md:justify-end items-start mt-30 gap-3">
+        <div className="flex items-center justify-center md:justify-end  mt-30 gap-3">
          
             <img src={facebook} alt="Facebook" className="w-[34px] h-[34px]" />
         
