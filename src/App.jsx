@@ -23,20 +23,18 @@ function App() {
       <section name="services">
         <Middle />
       </section>
-      
+
       <hr class="border-[0] h-[1px] bg-gray-300 my-4" />
 
       <Text />
       <section name="blog">
-            <Phone />
+        <Phone />
       </section>
 
-            <Dividepink />
+      <Dividepink />
 
-            <Vrman />
+      <Vrman />
 
-      
-    
       <Bell />
 
       {/* <Company_names /> */}
@@ -44,10 +42,10 @@ function App() {
       <Company_names />
 
       <Newsletter />
-<section name="aboutus">
-<Footer />
-</section>
-      
+      <section name="aboutus">
+        <Footer />
+      </section>
+
       {/* <Footer /> */}
     </div>
   );

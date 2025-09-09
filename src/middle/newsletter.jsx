@@ -28,7 +28,7 @@ function newsletter() {
             placeholder="Enter your email"
             className="flex-1 px-4 py-3 text-gray-700 focus:outline-none"
           />
-          <button className="bg-black text-white px-6 py-3 font-medium hover:bg-gray-900">
+          <button className="bg-black text-white px-6 py-2 font-medium hover:bg-gray-900">
             SUBSCRIBE
           </button>
         </div>

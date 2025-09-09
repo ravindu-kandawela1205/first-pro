@@ -10,12 +10,12 @@ function Body() {
         <img
           src={Shape_right}
           alt=""
-          className="absolute right-0 hidden md:block lg:hidden"
+          className="absolute right-0 hidden md:hidden lg:block"
         />
         <img
           src={Shape_left}
           alt=""
-          className="absolute left-0 bottom-0 hidden md:block lg:hidden"
+          className="absolute left-0 bottom-0 hidden md:hidden lg:block"
         />
         <div className="flex-1 max-w-lg space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-[36px] font-bold leading-snug">

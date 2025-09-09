@@ -5,13 +5,12 @@ import Effect_p from "../assets/effect_p.png";
 
 function dividelast() {
   return (
-    <div>
-      <div>
-        <div className="mt-6 flex items-center justify-center bg-white px-6">
+    
+        <div className="mt-6 flex items-center justify-center bg-white px-6  ">
           <img
             src={Effect_p}
             alt=""
-            className="absolute right-5 hidden md:block"
+            className="absolute right-5 hidden sm:hidden md:hidden lg:hidden xl:hidden 2xl:block"
           />
           <div className="grid md:grid-cols-2 gap-10 max-w-6xl items-center">
             <div>
@@ -53,8 +52,7 @@ function dividelast() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+   
   );
 }
 
