@@ -9,7 +9,7 @@ function CompanyLogos() {
     <div>
       <div className="w-full bg-white py-10">
         <div className="text-center mb-8">
-          <h2 className="text-lg font-medium text-gray-800">
+          <h2 className="text-lg font-bold text-gray-800 text-[24px]">
             You will be in good Company
           </h2>
         </div>

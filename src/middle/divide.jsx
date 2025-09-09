@@ -17,10 +17,10 @@ export default function divide() {
               </span>
             </div>
             <div>
-              <h4 className="font-semibold text-gray-900">
+              <h4 className="font-medium text-gray-900 text-[17px]"> 
                 Lorem Ipsum is simply dummy text
               </h4>
-              <p className="text-gray-500 text-sm">
+              <p className="text-gray-500 text-sm text-[14px]">
                 Lorem Ipsum is simply dummy text
               </p>
             </div>

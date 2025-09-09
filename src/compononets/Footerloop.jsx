@@ -24,7 +24,7 @@ const socail = [
 export default function socialmedia() {
   return (
     <footer className="w-full bg-white">
-      <div className="max-w-6xl  mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-[1440px]  mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h2 className="text-blue-700 font-bold text-lg mb-3">LOGO</h2>
           <p className="text-gray-600 text-sm mb-3">

@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 const xyz = [
-  { name: "Home"},
-  { name: "About Us" },
-  { name: "Services"},
-  { name: "Blog"},
+  { name: "Home", class: "hover:text-[#1090CB]" },
+  { name: "About Us", class: "hover:text-[#1090CB]" },
+  { name: "Services", class: "hover:text-[#1090CB]" },
+  { name: "Blog", class: "hover:text-[#1090CB]" },
 ];
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -28,13 +29,13 @@ export default function Navbar() {
 
         <ol className="hidden md:flex gap-10 items-center">
           {xyz.map((item, i) => (
-            <li key={i} className="relative group hover:text-[#1090CB] cursor-pointer" >
+            <li key={i} className="relative group hover:text-[#1090CB] cursor-pointer font-poppins" >
               <Link
                 to={item.name.toLowerCase().replace(" ", "")}
                 smooth={true}
                 duration={500}
                 offset={-80}
-                className={item.class}
+                className='{item.class}'
               >
                 <span className="absolute -top-1 -left-2 w-2 h-2 bg-green-500 rounded-full opacity-0 group-hover:opacity-100"></span>
                 {item.name}
@@ -71,7 +72,7 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <button className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-2 px-4 rounded-[6px] hover:bg-blue-600">
+            <button className= "font-poppins bg-[#1090CB] text-white text-[13px] cursor-pointer py-2 px-4 rounded-[6px] hover:bg-blue-600">
               Contact Us
             </button>
           </ol>

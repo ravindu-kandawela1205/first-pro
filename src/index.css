@@ -4,6 +4,10 @@
   --font-poppins: Poppins, sans-serif;
 }
 
+body{
+  @apply font-poppins;
+}
+
 
 
 

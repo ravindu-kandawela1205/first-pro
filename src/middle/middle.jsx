@@ -51,8 +51,8 @@ export default function Services() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg">{service.title}</h3>
-              <p className="text-gray-500 text-sm">{service.desc}</p>
+              <h3 className="font-semibold text-[20px] font-poppins">{service.title}</h3>
+              <p className="text-gray-500 text-[15px] font-poppins">{service.desc}</p>
             </div>
           </div>
         ))}
