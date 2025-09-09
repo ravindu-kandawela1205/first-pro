@@ -9,7 +9,7 @@ const services = [
     desc: "Lorem Ipsum is simply",
     icon: Web, // image path
     bg: "bg-purple-100",
-    text: "text-purple-600",
+    text: "text-purple-600 ",
   },
   {
     title: "SEO",
@@ -51,8 +51,8 @@ export default function Services() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-[20px] font-poppins">{service.title}</h3>
-              <p className="text-gray-500 text-[15px] font-poppins">{service.desc}</p>
+              <h3 className="font-semibold text-[10px] md:text-[20px] font-poppins">{service.title}</h3>
+              <p className="text-gray-500 md:text-[15px] font-poppins">{service.desc}</p>
             </div>
           </div>
         ))}
