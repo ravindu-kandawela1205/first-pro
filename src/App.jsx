@@ -20,17 +20,23 @@ function App() {
       {/* <Navbar /> */}
       <Navbarlist />
       <Body />
-      <Middle />
+      <section name="services">
+        <Middle />
+      </section>
+      
       <hr class="border-[0] h-[1px] bg-gray-300 my-4" />
 
       <Text />
+      <section name="blog">
+            <Phone />
+      </section>
 
-      <Phone />
+            <Dividepink />
 
-      <Dividepink />
+            <Vrman />
 
-      <Vrman />
-
+      
+    
       <Bell />
 
       {/* <Company_names /> */}
@@ -38,8 +44,10 @@ function App() {
       <Company_names />
 
       <Newsletter />
-
-      <Footer />
+<section name="aboutus">
+<Footer />
+</section>
+      
       {/* <Footer /> */}
     </div>
   );

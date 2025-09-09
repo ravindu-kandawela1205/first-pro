@@ -7,7 +7,7 @@ const services = [
   {
     title: "Web Application",
     desc: "Lorem Ipsum is simply",
-    icon: Web,
+    icon: Web, // image path
     bg: "bg-purple-100",
     text: "text-purple-600",
   },

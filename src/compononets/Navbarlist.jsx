@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const xyz = [
   { name: "Home", class: "hover:text-[#1090CB] cursor-pointer" },
@@ -26,13 +27,28 @@ export default function Navbar() {
 
         <ol className="hidden md:flex gap-10 items-center">
           {xyz.map((item, i) => (
-            <li key={i} className={item.class}>
-              {item.name}
+               <li key={i}>
+              <Link
+                to={item.name.toLowerCase().replace(" ", "")} 
+                smooth={true}
+                duration={500}
+                offset={-80} 
+                className={item.class}
+              >
+                {item.name}
+              </Link>
             </li>
           ))}
-          <button className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-2 px-4 rounded-[6px] hover:bg-blue-600">
-            Contact Us
-          </button>
+                 <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-2 px-4 rounded-[6px] hover:bg-blue-600"
+              onClick={() => setOpen(false)}
+            >
+              Contact Us
+            </Link>
         </ol>
       </div>
 
