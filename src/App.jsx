@@ -20,7 +20,10 @@ function App() {
     <div>
       {/* <Navbar /> */}
       <Navbarlist />
+      <section name="home">
       <Body />
+      </section>
+      
       <section name="services">
         <Middle />
       </section>

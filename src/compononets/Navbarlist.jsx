@@ -14,12 +14,10 @@ export default function Navbar() {
   return (
     <div className="bg-white shadow w-full fixed top-0 left-0 z-50">
       <div className="max-w-[1440px] mx-auto flex justify-between items-center py-4 px-8 md:px-20">
-       
         <div className="font-bold text-[#1090CB] text-3xl font-poppins">
           LOGO
         </div>
 
-        
         <button
           className="md:hidden text-2xl text-gray-700"
           onClick={() => setOpen(!open)}
@@ -27,13 +25,9 @@ export default function Navbar() {
           ☰
         </button>
 
-       
         <ol className="hidden md:flex gap-10 items-center">
           {xyz.map((item, i) => (
-            <li
-              key={i}
-              className="relative group font-poppins"
-            >
+            <li key={i} className="relative group font-poppins">
               <Link
                 to={item.name.toLowerCase().replace(" ", "")}
                 smooth={true}
@@ -59,7 +53,6 @@ export default function Navbar() {
         </ol>
       </div>
 
-      
       {open && (
         <div className="md:hidden bg-white border-t">
           <ol className="flex flex-col gap-4 py-4 items-center">
