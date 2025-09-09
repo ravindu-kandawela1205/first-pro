@@ -2,19 +2,20 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 const xyz = [
-  { name: "Home", class: "hover:text-[#1090CB] cursor-pointer" },
-  { name: "About Us", class: "hover:text-[#1090CB] cursor-pointer" },
-  { name: "Services", class: "hover:text-[#1090CB] cursor-pointer" },
-  { name: "Blog", class: "hover:text-[#1090CB] cursor-pointer" },
+  { name: "Home"},
+  { name: "About Us" },
+  { name: "Services"},
+  { name: "Blog"},
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-white shadow w-full md:w-full">
-      <div className="flex justify-between items-center py-4 px-6 md:px-20">
-        <div className="font-bold text-[#1090CB] text-3xl font-poppins">
+    <div className="bg-white shadow w-full">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-4 px-8 md:px-20"> 
+        {/* max-w-7xl mx-auto flex justify-between items-center py-4 px-8 md:px-20 */}
+        <div className="font-bold text-[#1090CB] text-3xl font-poppins ">
           LOGO
         </div>
 
@@ -27,7 +28,7 @@ export default function Navbar() {
 
         <ol className="hidden md:flex gap-10 items-center">
           {xyz.map((item, i) => (
-            <li key={i} className="relative group">
+            <li key={i} className="relative group hover:text-[#1090CB] cursor-pointer" >
               <Link
                 to={item.name.toLowerCase().replace(" ", "")}
                 smooth={true}

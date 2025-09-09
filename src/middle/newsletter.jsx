@@ -4,8 +4,10 @@ import pai from "../assets/pai.png";
 
 function newsletter() {
   return (
-    <div>
-      <div className="relative w-full bg-blue-50 py-16 px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2 ">
+    <div className="relative w-full  bg-blue-50 py-16 px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2 ">
+      <div className=" max-w-5xl">
+
+       
         <img
           src={Star}
           alt="star"
@@ -22,13 +24,14 @@ function newsletter() {
           Lorem Ipsum is simply dummy <br /> text of the printing.
         </h2>
 
-        <div className="flex w-full max-w-md bg-white rounded-lg overflow-hidden shadow-sm">
+        <div className="flex flex-col md:flex-row max-w-md sm:max-w-sm bg-white rounded-lg  shadow-sm  ">
           <input
             type="email"
             placeholder="Enter your email"
-            className="flex-1 px-4 py-3 text-gray-700 focus:outline-none"
+            className="flex-1 px-6  py-3 text-gray-700  focus:outline-none"
           />
-          <button className="bg-black text-white px-6 py-2 font-medium hover:bg-gray-900">
+          
+          <button className="bg-black text-white px-6 py-2 font-medium  hover:bg-gray-900 ">
             SUBSCRIBE
           </button>
         </div>

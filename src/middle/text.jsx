@@ -3,7 +3,7 @@ import React from "react";
 export default function text() {
   return (
     <div>
-      <div className="flex items-center justify-center mt-20 bg-white">
+      <div className="flex items-center justify-center mt-20 bg-white ">
         <div className="text-center max-w-auto ">
           <h1 className="text-1xl  font-bold text-gray-900">
             Lorem Ipsum is simply dummy text of the printing.
