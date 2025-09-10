@@ -14,7 +14,7 @@ function dividelast() {
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl items-center">
         <div>
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 flex items-center justify-center rounded-full bg-[#9208D3] text-white">
+            <div className="w-16 h-14 md:w-12 md:h-12  flex items-center justify-center rounded-full bg-[#9208D3] text-white">
               <span className="text-2xl">
                 <img src={Happy} alt="" className="h-[20px] w-[20px]" />
               </span>

@@ -20,10 +20,10 @@ function Newsletter() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="w-[532px] h-[67px] px-4 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
+            className="md:w-[532px] md:h-[67px] w-[300px] py-4 px-2 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
           />
 
-          <button className="h-[67px] w-[172px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
+          <button className="h-[67px] w-[300px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
             SUBSCRIBE
           </button>
         </div>

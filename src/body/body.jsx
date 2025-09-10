@@ -38,10 +38,10 @@ function Body() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="font-poppins bg-[#1090CB] text-white w-[192px] h-[51px] p-2 rounded-[10px] font-medium shadow hover:bg-[#0d7ab0] transition">
+            <button className="font-poppins bg-[#1090CB] text-white md:w-[192px] md:h-[51px] py-3 rounded-[10px] font-medium shadow hover:bg-[#0d7ab0] transition">
               Contact Us
             </button>
-            <button className="font-poppins border border-[#1090CB] text-[#1090CB] bg-white w-[192px] h-[51px] p-2  rounded-[10px] font-medium hover:bg-[#e6f7ff] transition">
+            <button className="font-poppins border border-[#1090CB] text-[#1090CB] bg-white md:w-[192px] md:h-[51px] py-3  rounded-[10px] font-medium hover:bg-[#e6f7ff] transition">
               View More
             </button>
           </div>

@@ -13,7 +13,7 @@ export default function CardsSection() {
           projects. We build and develop mobile applications for several top
           platforms, including Android & IOS.
         </p>
-        <button className="mt-6 px-6 py-2 bg-cyan-600 hover:bg-cyan-700 text-white font-medium rounded-md transition">
+        <button className="mt-6 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-medium rounded-md transition">
           View More
         </button>
       </div>
@@ -32,7 +32,7 @@ export default function CardsSection() {
           projects. We build and develop mobile applications for several top
           platforms, including Android & IOS.
         </p>
-        <button className="mt-6 px-6 py-2 bg-white text-cyan-600 font-medium rounded-md hover:bg-gray-100 transition">
+        <button className="mt-6 px-6 py-3 bg-white text-cyan-600 font-medium rounded-md hover:bg-gray-100 transition">
           View More
         </button>
       </div>

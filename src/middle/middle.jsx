@@ -37,11 +37,11 @@ const services = [
 export default function Services() {
   return (
     <div className="w-full py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-[16px] px-6 ">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-[16px] px-6 ">
         {services.map((service, i) => (
           <div key={i} className="flex items-start gap-4">
             <div
-              className={`w-16 h-16 md:h-[83px] md:w-[83px] flex items-center justify-center rounded-xl ${service.bg}`}
+              className={`w-[90px] h-[90px] md:h-[83px] md:w-[83px] flex items-center justify-center rounded-[20px] ${service.bg}`}
             >
               <img
                 src={service.icon}
@@ -51,11 +51,11 @@ export default function Services() {
             </div>
 
             <div>
-              <h3 className="text-[10px] md:text-[15px] font-medium font-poppins">
+              <h3 className="text-[15px] md:text-[15px] font-medium font-poppins">
                 {service.title}
               </h3>
               <p
-                className="text-gray-500 font-normal
+                className="text-gray-500 text-[10px] font-normal
  md:text-[15px] font-poppins"
               >
                 {service.desc}
