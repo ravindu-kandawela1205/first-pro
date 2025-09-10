@@ -14,18 +14,18 @@ export default function a() {
   return (
     <div className="w-full bg-white py-10">
       <div className="text-center mb-8">
-        <h2 className="text-lg font-medium text-gray-800">
+        <h2 className="text-lg font-medium text-[#000000]">
           You will be in good Company
         </h2>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-5 md:gap-10 px-4  ">
+      <div className="flex flex-wrap justify-center items-center gap-5 md:gap-[115px] px-4  ">
         {logos.map((item, i) => (
           <div key={i}>
             <img
               src={item.path}
               alt=""
-              className=" w-auto h-25 object-contain "
+              className=" w-auto h-[185px] object-contain "
             />
           </div>
         ))}

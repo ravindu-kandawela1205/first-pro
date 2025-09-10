@@ -2,36 +2,28 @@ import React from "react";
 import Star from "../assets/star.png";
 import pai from "../assets/pai.png";
 
-function newsletter() {
+function Newsletter() {
   return (
-    <div className="relative w-full  bg-blue-50 py-16 px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2 ">
-      <div className=" max-w-5xl">
-
-       
+    <div className="relative w-full bg-blue-50 py-16 px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2">
+      <div className="max-w-5xl ">
         <img
           src={Star}
           alt="star"
-          className="absolute top-[-30px] space-y-1 left-[167px] w-[66px] h-[66px]"
+          className="absolute top-[-30px] left-[167px] w-[66px] h-[66px]"
         />
 
-        {/* <img
-        src={pai}
-        alt="c mark"
-        className="absolute top-40 left-[1200px] w-14 h-14 hidden md:block sm:hidden"
-      /> */}
-
-        <h2 className="text-xl md:text-2xl font-semibold text-gray-800 text-center mb-6">
+        <h2 className="leading-12 text-xl md:text-2xl font-semibold text-gray-800 text-center mb-6">
           Lorem Ipsum is simply dummy <br /> text of the printing.
         </h2>
 
-        <div className="flex flex-col md:flex-row max-w-md sm:max-w-sm bg-white rounded-lg  shadow-sm  ">
+        <div className="flex flex-col md:flex-row gap-[14px] items-center justify-center">
           <input
             type="email"
             placeholder="Enter your email"
-            className="flex-1 px-6  py-3 text-gray-700  focus:outline-none"
+            className="w-[532px] h-[67px] px-4 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
           />
-          
-          <button className="bg-black text-white px-6 py-2 font-medium  hover:bg-gray-900 ">
+
+          <button className="h-[67px] w-[172px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
             SUBSCRIBE
           </button>
         </div>
@@ -40,4 +32,4 @@ function newsletter() {
   );
 }
 
-export default newsletter;
+export default Newsletter;

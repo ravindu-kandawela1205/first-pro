@@ -5,7 +5,7 @@ import Effect_l from "../assets/effect.png";
 import Effect_2 from "../assets/effect.png";
 export default function divide() {
   return (
-    <div className=" mt-6 flex items-center justify-center bg-white px-6">
+    <div className=" mt-6 flex items-center justify-center bg-white px-6 mb-16">
       <img src={Effect_l} alt="" className="absolute right-0 hidden md:hidden lg:block" />
 
       <div className="max-w-5xl grid md:grid-cols-2 gap-10  items-center">
@@ -20,18 +20,18 @@ export default function divide() {
               <h4 className="font-medium text-gray-900 text-[17px]"> 
                 Lorem Ipsum is simply dummy text
               </h4>
-              <p className="text-gray-500 text-sm text-[14px]">
+              <p className="text-gray-500  font-normal text-sm text-[14px]">
                 Lorem Ipsum is simply dummy text
               </p>
             </div>
           </div>
 
-          <h2 className="mt-8 text-2xl md:text-3xl font-bold text-gray-900">
-            <span className="text-cyan-600">Lorem Ipsum</span> is simply dummy
+          <h2 className="mt-8 text-2xl md:text-3xl font-semibold text-gray-900 leading-12">
+            <span className="text-cyan-600 ">Lorem Ipsum</span> is simply dummy
             text of the printing.
           </h2>
 
-          <p className="mt-6 text-gray-600 leading-relaxed">
+          <p className="mt-6 text-gray-600 leading-6">
             KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
             applications and website builders measuring dozens of completed
             projects. We build and develop mobile applications for several top

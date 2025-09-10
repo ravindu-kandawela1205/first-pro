@@ -12,7 +12,7 @@ function dividepink() {
         className="absolute left-10 hidden md:block sm:left-0"
       />
       <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
-        <div className="flex justify-center">
+        <div className="flex justify-center order-2 md:order-first">
           <img
             src={mockupImg}
             alt="Stacked mockup"
@@ -21,7 +21,7 @@ function dividepink() {
         </div>
 
         <div>
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 order-1 md:order-last">
             <div className="w-12 h-12 flex items-center justify-center rounded-full bg-cyan-500 text-white">
               <span className="text-2xl">
                 <img src={Happy} alt="" className="h-[20px] w-[20px]" />
