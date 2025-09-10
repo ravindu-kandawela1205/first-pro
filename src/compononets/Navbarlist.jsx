@@ -37,7 +37,7 @@ export default function Navbar() {
       smooth={true}
       duration={500}
       offset={-80}
-      className="bg-[#1090CB] text-white text-[13px] cursor-pointer p-2 w-[125px] h-[41px] text-center rounded-[6px] hover:bg-blue-600 font-poppins"
+      className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-3 w-[125px] h-[41px] text-center rounded-[6px] hover:bg-blue-600 font-poppins"
       onClick={() => isMobile && setOpen(false)}
     >
       Contact Us
@@ -47,12 +47,12 @@ export default function Navbar() {
   return (
     <div className="bg-white shadow w-full h-[102px] fixed top-0 left-0 z-50">
       <div className="max-w-[1440px] mx-auto flex justify-between items-center py-6 px-8 md:px-20">
-        {/* Logo */}
+       
         <div className="font-bold text-[#1090CB] text-[29px] font-poppins">
           LOGO
         </div>
 
-        {/* Mobile toggle button */}
+      
         <button
           className="md:hidden text-2xl text-gray-700"
           onClick={() => setOpen(!open)}
@@ -60,14 +60,14 @@ export default function Navbar() {
           ☰
         </button>
 
-        {/* Desktop menu */}
+      
         <ol className="hidden md:flex gap-[71px] items-center">
           {renderLinks()}
           {contactButton()}
         </ol>
       </div>
 
-      {/* Mobile menu */}
+     
       {open && (
         <div className="md:hidden bg-white border-t">
           <ol className="flex flex-col gap-4 py-4 items-center">

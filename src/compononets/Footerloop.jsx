@@ -24,8 +24,9 @@ const socail = [
 export default function socialmedia() {
   return (
     <footer className="w-full bg-white">
-      <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4  leading-10">
-        <div>
+      <div className="max-w-6xl mx-auto px-6 py-12  grid grid-cols-1 md:grid-cols-4  leading-10">
+        
+        <div className="">
           <h2 className="text-blue-700 font-bold text-lg mb-3">LOGO</h2>
           <p className="text-gray-600 text-sm mb-3">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -53,13 +54,13 @@ export default function socialmedia() {
           <p className="text-gray-800 text-sm font-medium">+908 89097 890</p>
         </div>
 
-        <div className="flex items-center justify-center md:justify-end md:gap-[16px]  mt-30 gap-2">
+        <div className="flex items-center justify-center md:justify-end md:gap-1  mt-30 gap-1">
           {socail.map((sc, i) => (
             <div key={i}>
               <img
                 src={sc.path}
                 alt=""
-                className="w-[100px] h-[100px] md:w-[34px] md:h-[34px] object-contain"
+                className="w-[100px] h-[100px] md:w-[100px] md:h-[100px] object-contain"
               />
             </div>
           ))}

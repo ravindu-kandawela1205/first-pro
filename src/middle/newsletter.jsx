@@ -12,7 +12,7 @@ function Newsletter() {
           className="absolute top-[-30px] left-[167px] w-[66px] h-[66px]"
         />
 
-        <h2 className="leading-12 text-xl md:text-2xl font-semibold text-gray-800 text-center mb-6">
+        <h2 className="leading-12 text-lg md:text-[30px] font-semibold text-gray-800 text-center md:mb-[80px]">
           Lorem Ipsum is simply dummy <br /> text of the printing.
         </h2>
 
@@ -23,7 +23,7 @@ function Newsletter() {
             className="md:w-[532px] md:h-[67px] w-[300px] py-4 px-2 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
           />
 
-          <button className="h-[67px] w-[300px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
+          <button className="h-[67px] md:w-[172px] w-[300px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
             SUBSCRIBE
           </button>
         </div>
