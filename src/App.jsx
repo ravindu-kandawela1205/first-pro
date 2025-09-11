@@ -14,7 +14,7 @@ import Newsletter from "./middle/newsletter";
 // import Footer from './Footer/footer'
 import Footer from "./compononets/Footerloop";
 import Section from './compononets/Section'
-
+import Abc from './compononets/ABC'
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
 
       <Text />
       <section name="blog">
+        {/* <Abc /> */}
         <Phone />
       {/* <Section /> */}
 
@@ -40,7 +41,7 @@ function App() {
 
        <Dividepink />
 
-       <Vrman /> 
+       <Vrman />  
 
       <Bell />
 

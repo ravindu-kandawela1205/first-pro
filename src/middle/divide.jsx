@@ -6,7 +6,11 @@ import Effect_2 from "../assets/effect.png";
 export default function divide() {
   return (
     <div className="mt-6 flex items-center justify-center bg-white px-6 mb-[100px]">
-      <img src={Effect_l} alt="" className="absolute right-0 hidden md:hidden lg:block" />
+      <img
+        src={Effect_l}
+        alt=""
+        className="absolute right-0 hidden md:hidden lg:block"
+      />
 
       <div className="max-w-5xl grid md:grid-cols-2 gap-10  items-center">
         <div>
@@ -17,7 +21,7 @@ export default function divide() {
               </span>
             </div>
             <div>
-              <h4 className="font-medium text-[#000000] text-[17px]"> 
+              <h4 className="font-medium text-[#000000] text-[17px]">
                 Lorem Ipsum is simply dummy text
               </h4>
               <p className="text-[#868686]  font-normal text-sm text-[14px]">

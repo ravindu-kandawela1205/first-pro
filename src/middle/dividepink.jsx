@@ -37,12 +37,12 @@ function dividepink() {
             </div>
           </div>
 
-           <h2 className="mt-[43px] text-2xl md:text-3xl font-semibold text-gray-900 leading-12">
+          <h2 className="mt-[43px] text-2xl md:text-3xl font-semibold text-gray-900 leading-12">
             <span className="text-cyan-600">Lorem Ipsum</span> is simply dummy
             text of the printing.
           </h2>
 
-            <p className="mt-[56px] text-gray-600 leading-6">
+          <p className="mt-[56px] text-gray-600 leading-6">
             KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
             applications and website builders measuring dozens of completed
             projects. We build and develop mobile applications for several top
