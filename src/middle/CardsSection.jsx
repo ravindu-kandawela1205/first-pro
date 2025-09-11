@@ -22,7 +22,7 @@ export default function CardsSection() {
         <img
           src={bellIcon}
           alt="bell"
-          className="absolute -top-10 right-6 w-16 h-16 transform rotate-12"
+          className="absolute -top-16 right-6 w-32 h-32 transform rotate-12"
         />
 
         <h3 className="text-lg font-bold">Lorem Ipsum is simply dummy text.</h3>
