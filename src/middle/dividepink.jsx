@@ -5,7 +5,7 @@ import Effect_m from "../assets/effect_y.png";
 
 function dividepink() {
   return (
-    <div className="flex items-center bg-white px-6 py-20 relative">
+    <div className="flex items-center bg-white px-6 py-1 md:py-0 md:mb-[86px] relative">
       <img
         src={Effect_m}
         alt=""
@@ -21,28 +21,28 @@ function dividepink() {
         </div>
 
         <div>
-          <div className="flex items-center space-x-3 order-1 md:order-last">
+          <div className="flex items-center space-x-3 order-1 md:order-last md:gap-[25px]">
             <div className="w-16 h-14 md:w-12 md:h-12  flex items-center justify-center rounded-full bg-cyan-500 text-white">
               <span className="text-2xl">
                 <img src={Happy} alt="" className="h-[20px] w-[20px]" />
               </span>
             </div>
             <div>
-              <h4 className="font-medium text-gray-900 text-[17px]">
+              <h4 className="font-medium text-[#000000] text-[17px]">
                 Lorem Ipsum is simply dummy text
               </h4>
-              <p className="text-gray-500 text-sm text-[14px]">
+              <p className="text-[#868686] text-sm text-[14px]">
                 Lorem Ipsum is simply dummy text
               </p>
             </div>
           </div>
 
-          <h2 className="mt-8 text-2xl md:text-3xl font-bold text-gray-900">
+           <h2 className="mt-[43px] text-2xl md:text-3xl font-semibold text-gray-900 leading-12">
             <span className="text-cyan-600">Lorem Ipsum</span> is simply dummy
             text of the printing.
           </h2>
 
-          <p className="mt-6 text-gray-600 leading-relaxed">
+            <p className="mt-[56px] text-gray-600 leading-6">
             KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
             applications and website builders measuring dozens of completed
             projects. We build and develop mobile applications for several top

@@ -3,8 +3,8 @@ import React from "react";
 export default function text() {
   return (
     <div>
-      <div className="flex items-center justify-center mt-[115px] bg-white mb-[55px] ">
-        <div className="text-center max-w-auto ">
+      <div className="flex items-center justify-center py-10 px-10 md:py-[115px] md:px-[297px] bg-white   ">
+        <div className="text-center max-w-auto gap-[32px] ">
           <h1 className=" text-2xl sm:text-[33px]  text-gray-900 font-semibold">
             Lorem Ipsum is simply dummy text of the printing.
           </h1>

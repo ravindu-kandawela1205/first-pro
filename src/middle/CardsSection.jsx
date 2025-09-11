@@ -2,7 +2,7 @@ import bellIcon from "../assets/bellang.png";
 
 export default function CardsSection() {
   return (
-    <div className="flex flex-col md:flex-row px-4 justify-center items-center gap-8 py-16 bg-white ">
+    <div className="flex flex-col md:flex-row px-4 justify-center items-center gap-8 md:gap-[50px] py-16 md:py-0 bg-white md:mt-[248px] ">
       <div className="relative bg-gray-100 rounded-xl px-6 py-18 max-w-md text-center shadow-sm ">
         <h3 className="text-lg font-bold text-gray-900">
           Lorem Ipsum is simply span dummy text.

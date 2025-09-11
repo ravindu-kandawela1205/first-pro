@@ -24,7 +24,7 @@ const socail = [
 export default function socialmedia() {
   return (
     <footer className="w-full bg-white">
-      <div className="max-w-6xl mx-auto px-6 py-12  grid grid-cols-1 md:grid-cols-4  leading-10 gap-2 md:gap-40">
+      <div className="max-w-6xl mx-auto px-6 py-12 md:py-0 md:mt-[87px] md:mb-[53px] grid grid-cols-1 md:grid-cols-4  leading-10 gap-2 md:gap-[50px] ">
         <div className="w-full text-center md:text-left">
           <h2 className="text-blue-700 font-bold text-lg mb-3">LOGO</h2>
           <p className="text-gray-600 text-sm mb-3">
@@ -52,13 +52,13 @@ export default function socialmedia() {
           </p>
           <p className="text-gray-800 text-sm font-medium">+908 89097 890</p>
         </div>
-<div className="flex items-center justify-center md:justify-end  mt-[30px]">
+<div className="flex items-center justify-center md:justify-end md:gap-[1px]  mt-[30px] md:mt-[100px]">
   {socail.map((sc, i) => (
     <img
       key={i}
       src={sc.path}
       alt=""
-      className="w-24 h-24 md:w-[60px] md:h-[60px] object-contain flex-shrink-0"
+      className="w-20 h-20 md:w-[60px] md:h-[60px] object-contain flex-shrink-0"
     />
   ))}
 </div>
@@ -66,7 +66,7 @@ export default function socialmedia() {
       </div>
 
       <div className="border-t border-gray-200 text-center py-4">
-        <p className="text-gray-500 text-[13px]">
+        <p className="text-[#686868] font-normal text-[13px]">
           Copyright © 2021 Lorem All rights Reserved
         </p>
       </div>

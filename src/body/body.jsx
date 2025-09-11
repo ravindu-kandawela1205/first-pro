@@ -18,7 +18,7 @@ function Body() {
           className="absolute left-0 bottom-0 hidden lg:block"
         />
 
-        <div className="flex-1 max-w-lg  text-center md:text-left order-2 md:order-1 space-y-[50px] ">
+        <div className="flex-1 max-w-lg md:mt-[160px] text-center md:text-left order-2 md:order-1 space-y-[50px] ">
           <h1
             className="text-4xl md:text-[36px] font-semibold  p-2
   leading-snug font-poppins "
@@ -37,7 +37,7 @@ function Body() {
             Android & iOS.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-[15px] justify-center md:justify-start">
             <button className="font-poppins bg-[#1090CB] text-white md:w-[192px] md:h-[51px] py-3 rounded-[10px] font-medium shadow hover:bg-[#0d7ab0] transition">
               Contact Us
             </button>

@@ -13,6 +13,7 @@ import Company_names from "./compononets/Companyimages";
 import Newsletter from "./middle/newsletter";
 // import Footer from './Footer/footer'
 import Footer from "./compononets/Footerloop";
+import Section from './compononets/Section'
 
 
 function App() {
@@ -33,11 +34,13 @@ function App() {
       <Text />
       <section name="blog">
         <Phone />
+      {/* <Section /> */}
+
       </section>
 
-      <Dividepink />
+       <Dividepink />
 
-      <Vrman />
+       <Vrman /> 
 
       <Bell />
 

@@ -36,8 +36,8 @@ const services = [
 
 export default function Services() {
   return (
-    <div className="w-full py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-[16px] px-6 ">
+    <div className="w-full py-4 md:py-[43px] md:px-[123px]">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-[31px] px-6 ">
         {services.map((service, i) => (
           <div key={i} className="flex items-start gap-4">
             <div

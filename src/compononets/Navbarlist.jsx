@@ -45,8 +45,8 @@ export default function Navbar() {
   );
 
   return (
-    <div className="bg-white shadow w-full h-[102px] fixed top-0 left-0 z-50">
-      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-6 px-8 md:px-20">
+    <div className="bg-white shadow w-full h-auto md:h-[102px] fixed top-0 left-0 z-50">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-8 md:px-20">
        
         <div className="font-bold text-[#1090CB] text-[29px] font-poppins">
           LOGO

@@ -4,7 +4,7 @@ import pai from "../assets/pai.png";
 
 function Newsletter() {
   return (
-    <div className="relative w-full bg-blue-50 py-16 px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2">
+    <div className="relative w-full bg-[#E8F4FA] py-16 md:py-0 md:mt-[87px] px-4 flex flex-col md:text-left items-center justify-center h-[560px] overflow-visible mt-2">
       <div className="max-w-5xl ">
         <img
           src={Star}
@@ -12,7 +12,7 @@ function Newsletter() {
           className="absolute top-[-30px] left-[167px] w-[66px] h-[66px]"
         />
 
-        <h2 className="leading-12 text-lg md:text-[30px] font-semibold text-gray-800 text-center md:mb-[80px]">
+        <h2 className="leading-12 text-lg md:text-[30px] font-semibold text-gray-800 text-center md:mb-[80px] md:pl[360px]">
           Lorem Ipsum is simply dummy <br /> text of the printing.
         </h2>
 

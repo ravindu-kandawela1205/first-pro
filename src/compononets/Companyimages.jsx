@@ -12,7 +12,7 @@ const logos = [
 
 export default function a() {
   return (
-    <div className="w-full bg-white py-10">
+    <div className="w-full bg-white py-10 md:py-0 md:mt-[184px] gap-[11px]">
       <div className="text-center mb-8">
         <h2 className="text-lg font-medium text-[#000000]">
           You will be in good Company
