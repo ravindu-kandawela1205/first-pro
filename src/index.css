@@ -4,10 +4,9 @@
   --font-poppins: Poppins, sans-serif;
 }
 
-body{
-  @apply font-poppins;
+body {
+  font-family: 'Poppins', sans-serif;
 }
-
 
 
 

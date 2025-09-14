@@ -9,55 +9,53 @@ const services = [
     desc: "Lorem Ipsum is simply",
     icon: Web,
     bg: "bg-purple-100",
-    text: "text-purple-600 md:size-[20px]  ",
   },
   {
     title: "SEO",
     desc: "Lorem Ipsum is simply",
     icon: Seo,
     bg: "bg-[#ECFFDA]",
-    text: "text-green-600 md:size-[20px] ",
   },
   {
     title: "AR/VR Solutions",
     desc: "Lorem Ipsum is simply",
     icon: Imme,
     bg: "bg-blue-100",
-    text: " text-blue-600 md:size-[20px] ",
   },
   {
     title: "Mobile Applications",
     desc: "Lorem Ipsum is simply",
     icon: Code,
     bg: "bg-red-100",
-    text: "text-red-600 md:size-[20px] ",
   },
 ];
 
 export default function Services() {
   return (
-    <div className="w-full py-4 md:py-[43px] md:px-[123px]">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 md:gap-[31px] px-6 ">
+    <div className="w-full py-10 md:py-[43px] md:px-[123px]">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-6">
         {services.map((service, i) => (
-          <div key={i} className="flex items-start gap-4">
+          <div
+            key={i}
+            className="flex items-center gap-4"
+          >
+            {/* Icon */}
             <div
-              className={`w-[90px] h-[90px] md:h-[83px] md:w-[83px] flex items-center justify-center rounded-[20px] ${service.bg}`}
+              className={`w-[70px] h-[70px] flex items-center justify-center rounded-2xl ${service.bg}`}
             >
               <img
                 src={service.icon}
                 alt={service.title}
-                className={`w-10 h-10 md:w-[41px] md:h-[41px] ${service.text}`}
+                className="w-9 h-9"
               />
             </div>
 
+            {/* Text */}
             <div>
-              <h3 className="text-[15px] md:text-[15px] font-medium font-poppins">
+              <h3 className="text-[16px] font-medium font-poppins text-[#000000]">
                 {service.title}
               </h3>
-              <p
-                className="text-gray-500 text-[10px] font-normal
- md:text-[15px] font-poppins"
-              >
+              <p className="text-gray-500 text-[13px] font-poppins">
                 {service.desc}
               </p>
             </div>

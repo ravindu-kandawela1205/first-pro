@@ -15,7 +15,7 @@ import Newsletter from "./middle/newsletter";
 import Footer from "./compononets/Footerloop";
 import Section from './compononets/Section'
 import Abc from './compononets/ABC'
-
+import ScreenSizeIndicator from './compononets/ScreenSizeIndicator'
 function App() {
   return (
     <div>
@@ -55,6 +55,7 @@ function App() {
       </section>
 
       {/* <Footer /> */}
+      <ScreenSizeIndicator />
     </div>
   );
 }
