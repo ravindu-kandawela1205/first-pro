@@ -9,7 +9,7 @@ function dividelast() {
       <img
         src={Effect_p}
         alt=""
-        className="absolute right-5 hidden 2xl:block"
+        className="absolute right-5 hidden 2xl:block xl:block top-20 z-0"
       />
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl items-center">
         <div>
@@ -46,7 +46,7 @@ function dividelast() {
           <img
             src={Vrman}
             alt="Phone mockup"
-            className="w-[300px] md:w-[400px] lg:w-[500px]"
+            className="w-[300px] md:w-[400px] lg:w-[500px] z-50"
           />
         </div>
       </div>

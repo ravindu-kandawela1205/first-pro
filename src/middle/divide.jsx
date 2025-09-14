@@ -5,12 +5,16 @@ import Effect_l from "../assets/effect.png";
 import Effect_2 from "../assets/effect.png";
 export default function divide() {
   return (
-    <div className="mt-6 flex items-center justify-center bg-white px-6 mb-[100px]">
-      <img
+    <div className=" relative mt-6 flex items-center justify-center bg-white px-6 mb-[100px]">
+      <div
+        className=" absolute bg-purple-200 rounded-full w-90 h-90 blur-2xl right-80 top-40 z-0
+       xl:-right-20 lg:right-20 md:right-10 md:block sm:hidden 2xl:right-30 2xl:top-1 2xl:block xl:top-10 xl:block lg:block"
+      ></div>
+      {/* <img
         src={Effect_l}
         alt=""
         className="absolute right-0 hidden md:hidden lg:block"
-      />
+      /> */}
 
       <div className="max-w-5xl grid md:grid-cols-2 gap-10  items-center">
         <div>

@@ -37,7 +37,7 @@ export default function Navbar() {
             }}
           >
             <span
-              className={`absolute -top-1 -left-2 w-2 h-2 bg-green-500 rounded-full opacity-0 group-hover:opacity-100 ${
+              className={`absolute -top-1 -left-2 w-2 h-2 bg-green-500 rounded-full opacity-0  ${
                 isActive ? "opacity-100" : ""
               }`}
             ></span>
