@@ -6,7 +6,7 @@ import Insta from "../assets/insta.png";
 function footer() {
   return (
 
-    // ravinu
+    
     <footer className="w-full bg-white">
       <div className="max-w-6xl  mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
