@@ -33,11 +33,11 @@ const services = [
 export default function Services() {
   return (
     <div className="w-full py-10 md:py-[43px] md:px-[123px]">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-6">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-2">
         {services.map((service, i) => (
           <div
             key={i}
-            className="flex items-center gap-4"
+            className="flex items-center gap-[31px]"
           >
             {/* Icon */}
             <div

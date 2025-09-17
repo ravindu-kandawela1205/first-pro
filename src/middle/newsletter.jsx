@@ -11,16 +11,22 @@ function Newsletter() {
           alt="star"
           className="absolute top-[-30px] left-[167px] w-[66px] h-[66px]"
         />
+        <img
+          src={pai}
+          alt="star"
+          className="absolute top-[94px] right-[397px] w-[66px] h-[66px] xl:block lg:hidden"
+        />
+
 
         <h2 className="leading-12 text-lg md:text-[30px] font-semibold text-gray-800 text-center md:mb-[80px] md:pl[360px]">
           Lorem Ipsum is simply dummy <br /> text of the printing.
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-[14px] items-center justify-center">
+        <div className="flex flex-col md:flex-row gap-[14px] items-center justify-center mt-6">
           <input
             type="email"
             placeholder="Enter your email"
-            className="md:w-[532px] md:h-[67px] w-[300px] py-4 px-2 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
+            className="md:w-[532px] md:h-[67px] w-[300px] py-4 px-2 md:pl-5 text-gray-700 focus:outline-none rounded-lg shadow-sm bg-white"
           />
 
           <button className="h-[67px] md:w-[172px] w-[300px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">

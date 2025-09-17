@@ -6,10 +6,14 @@ import Effect_2 from "../assets/effect.png";
 export default function divide() {
   return (
     <div className=" relative mt-6 flex items-center justify-center bg-white px-6 mb-[100px]">
-      <div
-        className=" absolute bg-purple-200 rounded-full w-90 h-90 blur-2xl right-80 top-40 z-0
-       xl:-right-20 lg:right-20 md:right-10 md:block sm:hidden 2xl:right-30 2xl:top-1 2xl:block xl:top-10 xl:block lg:block"
-      ></div>
+<div
+  className="absolute rounded-full w-90 h-90 blur-2xl right-80 top-40 z-0
+    xl:-right-0 lg:right-20 md:right-10 md:block sm:hidden 
+    2xl:right-30 2xl:top-1 2xl:block xl:top-10 xl:block lg:block
+    bg-[radial-gradient(circle_at_center,_#DED9FF,_#FFFFFF00)]"
+></div>
+
+
       {/* <img
         src={Effect_l}
         alt=""

@@ -21,18 +21,18 @@ function App() {
     <div>
       {/* <Navbar /> */}
       <Navbarlist />
-      <section name="home">
+      <section id="home">
       <Body />
       </section>
       
-      <section name="services">
+      <section id="services">
         <Middle />
       </section>
 
       <hr class="border-[0] h-[1px] bg-gray-300 my-4" />
 
       <Text />
-      <section name="blog">
+      <section id="blog">
         {/* <Abc /> */}
         <Phone />
       {/* <Section /> */}
@@ -50,7 +50,7 @@ function App() {
       <Company_names />
 
       <Newsletter />
-      <section name="aboutus">
+      <section id="aboutus">
         <Footer />
       </section>
 

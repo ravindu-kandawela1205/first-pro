@@ -52,13 +52,13 @@ export default function socialmedia() {
           </p>
           <p className="text-gray-800 text-sm font-medium">+908 89097 890</p>
         </div>
-<div className="flex items-center justify-center md:justify-end md:gap-[1px]  mt-[30px] md:mt-[100px]">
+<div className="flex items-center justify-center md:justify-end -space-x-2 md:-space-x-4 mt-[30px] md:mt-[100px]">
   {socail.map((sc, i) => (
     <img
       key={i}
       src={sc.path}
       alt=""
-      className="w-20 h-20 md:w-[60px] md:h-[60px] object-contain flex-shrink-0"
+      className="w-20 h-20 md:w-[60px] md:h-[60px]  justify-center flex-shrink-0"
     />
   ))}
 </div>

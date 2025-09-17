@@ -23,12 +23,12 @@ function Body() {
         />
 
         <div className="flex-1 max-w-lg md:mt-[160px] text-center md:text-left order-2 md:order-1 space-y-[50px] z-50">
-          <h1 className="text-4xl md:text-[32px] font-semibold p-2 leading-snug font-poppins">
+          <h1 className="text-4xl md:text-[32px] font-semibold p-2 leading-relaxed font-poppins">
             Experience <span className="text-[#1090CB]">mobile and web</span>{" "}
             applications and website builders measuring.
           </h1>
 
-          <p className="text-[#5C5C5C] font-normal leading-relaxed font-poppins">
+          <p className="text-[#5C5C5C] font-normal leading-8 font-poppins">
             KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
             application developers with dozens of completed projects. We build
             and develop mobile applications for several top platforms, including

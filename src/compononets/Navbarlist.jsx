@@ -2,46 +2,37 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 
 const menuItems = [
-  { name: "Home" },
-  { name: "About Us" },
-  { name: "Services" },
-  { name: "Blog" },
+  { name: "Home", id: "home" },
+  { name: "About Us", id: "aboutus" },
+  { name: "Services", id: "services" },
+  { name: "Blog", id: "blog" },
 ];
 
-export default function Navbar() {
+export default function Navbarlist() {
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState("home"); // default active
-
-  const baseLinkClasses =
-    "cursor-pointer text-[16px] font-normal font-poppins hover:text-[#1090CB]";
-
-  const activeLinkClasses =
-    "text-[#1090CB] font-normal"; 
+  const [activeId, setActiveId] = useState("home"); // track active section
 
   const renderLinks = (isMobile = false) =>
-    menuItems.map((item, i) => {
-      const linkId = item.name.toLowerCase().replace(/\s+/g, "");
-      const isActive = active === linkId;
-
+    menuItems.map((item) => {
+      const isActive = activeId === item.id;
       return (
-        <li key={i} className="relative group">
+        <li key={item.id} className="relative">
           <Link
-            to={linkId}
+            to={item.id}
             smooth={true}
             duration={500}
-            offset={-80}
-            className={`${baseLinkClasses} ${isActive ? activeLinkClasses : ""}`}
-            onClick={() => {
-              setActive(linkId);
-              if (isMobile) setOpen(false);
-            }}
+            offset={-100}
+            spy={true}
+            onSetActive={() => setActiveId(item.id)}
+            onClick={() => isMobile && setOpen(false)}
+            className={`relative block px-2 py-1 cursor-pointer text-[16px] font-poppins font-normal ${
+              isActive ? "text-[#1090CB] font-bold" : "text-gray-700"
+            }`}
           >
-            <span
-              className={`absolute -top-1 -left-2 w-2 h-2 bg-green-500 rounded-full opacity-0  ${
-                isActive ? "opacity-100" : ""
-              }`}
-            ></span>
             {item.name}
+            {isActive && (
+              <span className="absolute -top-2 -left-3 w-2 h-2 bg-green-500 rounded-full"></span>
+            )}
           </Link>
         </li>
       );
@@ -52,9 +43,10 @@ export default function Navbar() {
       to="contact"
       smooth={true}
       duration={500}
-      offset={-80}
-      className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-3 w-[125px] h-[41px] text-center rounded-[6px] hover:bg-blue-600 font-poppins"
+      offset={-100}
+      spy={true}
       onClick={() => isMobile && setOpen(false)}
+      className="bg-[#1090CB] text-white text-[13px] cursor-pointer py-3 w-[125px] h-[41px] text-center rounded-[6px] hover:bg-blue-600 font-poppins"
     >
       Contact Us
     </Link>
@@ -62,9 +54,10 @@ export default function Navbar() {
 
   return (
     <div className="bg-white shadow w-full h-auto md:h-[102px] fixed top-0 left-0 z-[999]">
-      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-8 md:px-20">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-4 md:px-[32px]">
         <div className="font-bold text-[#1090CB] text-[29px] font-poppins">LOGO</div>
 
+        {/* Mobile Hamburger */}
         <button
           className="md:hidden text-2xl text-gray-700"
           onClick={() => setOpen(!open)}
@@ -72,12 +65,14 @@ export default function Navbar() {
           ☰
         </button>
 
+        {/* Desktop menu */}
         <ol className="hidden md:flex gap-[71px] items-center">
           {renderLinks()}
           {contactButton()}
         </ol>
       </div>
 
+      {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-white border-t">
           <ol className="flex flex-col gap-4 py-4 items-center">
