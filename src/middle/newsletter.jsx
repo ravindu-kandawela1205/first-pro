@@ -9,12 +9,12 @@ function Newsletter() {
         <img
           src={Star}
           alt="star"
-          className="absolute top-[-30px] left-[167px] w-[66px] h-[66px]"
+          className="absolute top-[-30px] left-[167px] w-[66px] h-[66px] hover:animate-spin hidden lg:block xl:block"
         />
         <img
           src={pai}
           alt="star"
-          className="absolute top-[94px] right-[397px] w-[66px] h-[66px] xl:block lg:hidden"
+          className="absolute top-[94px] right-[397px] w-[66px] h-[66px] xl:block lg:hidden hover:animate-spin"
         />
 
 

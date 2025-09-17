@@ -55,7 +55,7 @@ export default function divide() {
           <img
             src={phoneMockup}
             alt="Phone mockup"
-            className="w-[300px] md:w-[400px] lg:w-[500px] "
+            className="w-[300px] md:w-[400px] lg:w-[500px] hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>

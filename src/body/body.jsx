@@ -49,7 +49,7 @@ function Body() {
           <img
             src={Man}
             alt="hero illustration"
-            className="w-[300px] sm:w-[400px] md:w-[500px] object-contain z-50"
+            className="w-[300px] sm:w-[400px] md:w-[500px] object-contain z-50 hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>

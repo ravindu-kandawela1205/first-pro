@@ -58,7 +58,7 @@ export default function socialmedia() {
       key={i}
       src={sc.path}
       alt=""
-      className="w-20 h-20 md:w-[60px] md:h-[60px]  justify-center flex-shrink-0"
+      className="w-20 h-20 md:w-[60px] md:h-[60px]  justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300"
     />
   ))}
 </div>

@@ -54,7 +54,7 @@ export default function Navbarlist() {
 
   return (
     <div className="bg-white shadow w-full h-auto md:h-[102px] fixed top-0 left-0 z-[999]">
-      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-4 md:px-[32px]">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-4 md:px-[32px] xl:px-[80px]">
         <div className="font-bold text-[#1090CB] text-[29px] font-poppins">LOGO</div>
 
         {/* Mobile Hamburger */}

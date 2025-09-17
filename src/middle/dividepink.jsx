@@ -16,7 +16,7 @@ function dividepink() {
           <img
             src={mockupImg}
             alt="Stacked mockup"
-            className="w-[300px] md:w-[450px] lg:w-[550px] drop-shadow-2xl "
+            className="w-[300px] md:w-[450px] lg:w-[550px] drop-shadow-2xl hover:scale-105 transition-transform duration-300 "
           />
         </div>
 

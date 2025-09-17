@@ -46,13 +46,13 @@ export default function Services() {
               <img
                 src={service.icon}
                 alt={service.title}
-                className="w-9 h-9"
+                className="w-9 h-9 hover:scale-140 transition-transform duration-300"
               />
             </div>
 
             {/* Text */}
             <div>
-              <h3 className="text-[16px] font-medium font-poppins text-[#000000]">
+              <h3 className="text-[16px] font-medium font-poppins text-[#000000] hover:scale-110 transition-transform duration-300 ">
                 {service.title}
               </h3>
               <p className="text-gray-500 text-[13px] font-poppins">

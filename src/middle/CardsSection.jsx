@@ -23,7 +23,7 @@ export default function CardsSection() {
         <img
           src={bellIcon}
           alt="bell"
-          className="absolute -top-12 md:-top-[60px] right-6 w-24 h-24 md:w-[120.26px] md:h-[120.26px] transform rotate-12"
+          className="absolute -top-12 md:-top-[60px] right-6 w-24 h-24 md:w-[120.26px] md:h-[120.26px] transform rotate-12 hover:rotate-0 transition"
         />
         <h3 className="text-lg md:mt-[64px] md:text-[25px] font-semibold  mx-auto max-w-[300px] break-words">
           Lorem Ipsum is simply dummy text.

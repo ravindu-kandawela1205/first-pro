@@ -25,7 +25,7 @@ export default function a() {
             <img
               src={item.path}
               alt=""
-              className=" w-auto h-[120px] object-contain "
+              className=" w-auto h-[120px] object-contain hover:scale-110 transition-transform duration-300"
             />
           </div>
         ))}
