@@ -31,7 +31,7 @@ export default function Navbarlist() {
           >
             {item.name}
             {isActive && (
-              <span className="absolute -top-2 -left-3 w-2 h-2 bg-green-500 rounded-full"></span>
+              <span className="absolute -top-0 -left-2 w-2 h-2 bg-green-500 rounded-full"></span>
             )}
           </Link>
         </li>
