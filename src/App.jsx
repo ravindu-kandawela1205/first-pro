@@ -29,7 +29,7 @@ function App() {
         <Middle />
       </section>
 
-      <hr class="border-[0] h-[1px] bg-gray-300 my-4" />
+      <hr className="border-[0] h-[1px] bg-gray-300 my-4" />
 
       <Text />
       <section id="blog">

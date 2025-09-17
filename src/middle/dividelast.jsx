@@ -46,7 +46,7 @@ function dividelast() {
           <img
             src={Vrman}
             alt="Phone mockup"
-            className="w-[300px] md:w-[400px] lg:w-[500px] z-50"
+            className="w-[300px] md:w-[400px] lg:w-[500px] z-50 md:ml-20 xl:ml-90"
           />
         </div>
       </div>
