@@ -1,8 +1,8 @@
 import React from "react";
-import Bens from "../assets/beneoshop.png";
-import capsico from "../assets/caspio.png";
-import HyperGrid from "../assets/HyperGrid.png";
-import leotrippi from "../assets/leotrippi.png";
+import Bens from "../assets/Images/beneoshop.png";
+import capsico from "../assets/Images/caspio.png";
+import HyperGrid from "../assets/Images/HyperGrid.png";
+import leotrippi from "../assets/Images/leotrippi.png";
 
 function CompanyLogos() {
   return (

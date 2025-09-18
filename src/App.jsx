@@ -1,60 +1,47 @@
 import React from "react";
 // import Navbar from './navbar/navbar'
 import Navbarlist from "./compononets/Navbarlist";
-import Body from "./body/body";
-import Middle from "./middle/middle";
-import Text from "./middle/text";
-import Phone from "./middle/divide";
-import Dividepink from "./middle/dividepink";
-import Vrman from "./middle/dividelast";
-import Bell from "./middle/CardsSection";
+import Body from "./Sections/body";
+import Middle from "./Sections/middle";
+import Text from "./Sections/text";
+import Phone from "./Sections/divide";
+import Dividepink from "./Sections/dividepink";
+import Vrman from "./Sections/dividelast";
+import Bell from "./Sections/CardsSection";
 // import Company_names from './middle-text/CompanyLogos'
 import Company_names from "./compononets/Companyimages";
-import Newsletter from "./middle/newsletter";
+import Newsletter from "./Sections/newsletter";
 // import Footer from './Footer/footer'
 import Footer from "./compononets/Footerloop";
-import Section from './compononets/Section'
-import Abc from './compononets/ABC'
-import ScreenSizeIndicator from './compononets/ScreenSizeIndicator'
+import Section from "./compononets/Section";
+import Abc from "./compononets/ABC";
+import ScreenSizeIndicator from "./compononets/ScreenSizeIndicator";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Navbarlist />
-      <section id="home">
+
       <Body />
-      </section>
-      
-      <section id="services">
-        <Middle />
-      </section>
+
+      <Middle />
 
       <hr className="border-[0] h-[1px] bg-gray-300 my-4" />
 
       <Text />
-      <section id="blog">
-        {/* <Abc /> */}
-        <Phone />
-      {/* <Section /> */}
 
-      
+      <Phone />
 
-       <Dividepink />
+      <Dividepink />
 
-       <Vrman />  
-      </section>
+      <Vrman />
 
       <Bell />
 
-      {/* <Company_names /> */}
-
       <Company_names />
-<section id="aboutus">
+
       <Newsletter />
 
-
-  <Footer />
-</section>
+      <Footer />
 
       {/* <Footer /> */}
       <ScreenSizeIndicator />

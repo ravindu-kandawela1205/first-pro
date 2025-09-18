@@ -1,7 +1,7 @@
-import facebook from "../assets/facbook.png";
-import twiiter from "../assets/twiiter.png";
-import linkdin from "../assets/linkdin.png";
-import Insta from "../assets/insta.png";
+import facebook from "../assets/Images/facbook.png";
+import twiiter from "../assets/Images/twiiter.png";
+import linkdin from "../assets/Images/linkdin.png";
+import Insta from "../assets/Images/insta.png";
 
 const socail = [
   {
@@ -23,7 +23,10 @@ const socail = [
 
 export default function socialmedia() {
   return (
-  
+
+    
+
+    
     <footer className="w-full bg-white">
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-0 md:mt-[87px] md:mb-[53px] grid grid-cols-1 md:grid-cols-4  leading-10 gap-2 md:gap-[50px] ">
         <div className="w-full text-center md:text-left">
@@ -72,5 +75,7 @@ export default function socialmedia() {
         </p>
       </div>
     </footer>
+  
+  
   );
 }

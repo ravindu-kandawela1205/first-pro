@@ -1,10 +1,11 @@
 import React from "react";
-import Man from "../assets/1.png";
-import Shape_right from "../assets/shape_right.png";
-import Shape_left from "../assets/shape_left.png";
+import Man from "../assets/Images/1.png";
+import Shape_right from "../assets/Images/shape_right.png";
+import Shape_left from "../assets/Images/shape_left.png";
 
 function Body() {
   return (
+    <section id="home">
     <div className="bg-[#1090CB1A] min-h-[743px] w-full relative">
       {/* effects */}
       <div className="absolute bg-yellow-50 rounded-full w-90 h-90 blur-2xl right-80 top-40 z-0 xl:right-40 lg:right-20 md:right-10 md:block sm:hidden 2xl:right-80 2xl:top-40 2xl:block xl:top-40 xl:block lg:block"></div>
@@ -53,7 +54,9 @@ function Body() {
           />
         </div>
       </div>
+     
     </div>
+    </section>
   );
 }
 

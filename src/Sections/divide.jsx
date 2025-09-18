@@ -1,10 +1,12 @@
 import React from "react";
-import phoneMockup from "../assets/phone.png";
-import Happy from "../assets/happy.png";
-import Effect_l from "../assets/effect.png";
-import Effect_2 from "../assets/effect.png";
+import phoneMockup from "../assets/Images/phone.png";
+import Happy from "../assets/Images/happy.png";
+import Effect_l from "../assets/Images/effect.png";
+import Effect_2 from "../assets/Images/effect.png";
 export default function divide() {
   return (
+
+  <section id="blog">
     <div className=" relative mt-6 flex items-center justify-center bg-white px-6 mb-[100px]">
 <div
   className="absolute rounded-full w-90 h-90 blur-2xl right-80 top-40 z-0
@@ -60,5 +62,6 @@ export default function divide() {
         </div>
       </div>
     </div>
+</section>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import Vrman from "../assets/vrman.png";
-import Happy from "../assets/happy.png";
-import Effect_p from "../assets/effect_p.png";
+import Vrman from "../assets/Images/vrman.png";
+import Happy from "../assets/Images/happy.png";
+import Effect_p from "../assets/Images/effect_p.png";
 
 function dividelast() {
   return (

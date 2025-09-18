@@ -1,9 +1,12 @@
-import bellIcon from "../assets/bellang.png";
+import bellIcon from "../assets/Images/bellang.png";
 
 export default function CardsSection() {
   return (
     <div className="flex flex-col md:flex-row px-4 justify-center items-center gap-8 md:gap-[25px] py-16 md:py-0 bg-white md:mt-[248px]">
+      <section id="services"></section>
       <div className="relative bg-[#F4F4F4] text-white rounded-xl px-6 py-12 text-center shadow-lg  md:w-[550px] md:h-[500px]">
+         
+        
         <h3 className="md:mt-[64px] text-lg md:text-[25px] font-semibold text-gray-900 mx-auto max-w-[400px] break-words">
           Lorem Ipsum is simply span dummy text.
         </h3>

@@ -1,7 +1,7 @@
 import React from "react";
-import Happy from "../assets/happy.png";
-import mockupImg from "../assets/mockup.png";
-import Effect_m from "../assets/effect_y.png";
+import Happy from "../assets/Images/happy.png";
+import mockupImg from "../assets/Images/mockup.png";
+import Effect_m from "../assets/Images/effect_y.png";
 
 function dividepink() {
   return (

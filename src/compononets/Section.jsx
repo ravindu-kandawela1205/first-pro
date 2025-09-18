@@ -1,11 +1,11 @@
 import React from "react";
-import phoneMockup from "../assets/phone.png";
-import mockupImg from "../assets/mockup.png";
-import Vrman from "../assets/vrman.png";
-import Happy from "../assets/happy.png";
-import EffectL from "../assets/effect.png";
-import EffectM from "../assets/effect_y.png";
-import EffectP from "../assets/effect_p.png";
+import phoneMockup from "../assets/Images/phone.png";
+import mockupImg from "../assets/Images/mockup.png";
+import Vrman from "../assets/Images/vrman.png";
+import Happy from "../assets/Images/happy.png";
+import EffectL from "../assets/Images/effect.png";
+import EffectM from "../assets/Images/effect_y.png";
+import EffectP from "../assets/Images/effect_p.png";
 
 
 const sections = [

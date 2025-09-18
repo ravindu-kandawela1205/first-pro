@@ -1,6 +1,6 @@
 import React from "react";
-import Star from "../assets/star.png";
-import pai from "../assets/pai.png";
+import Star from "../assets/Images/star.png";
+import pai from "../assets/Images/pai.png";
 
 function Newsletter() {
   return (
@@ -32,9 +32,11 @@ function Newsletter() {
           <button className="h-[67px] md:w-[172px] w-[300px] px-4 bg-black text-white font-medium hover:bg-gray-900 rounded-lg shadow-sm">
             SUBSCRIBE
           </button>
+
         </div>
       </div>
     </div>
+
   );
 }
 
