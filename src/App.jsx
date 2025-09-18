@@ -37,22 +37,24 @@ function App() {
         <Phone />
       {/* <Section /> */}
 
-      </section>
+      
 
        <Dividepink />
 
        <Vrman />  
+      </section>
 
       <Bell />
 
       {/* <Company_names /> */}
 
       <Company_names />
-
+<section id="aboutus">
       <Newsletter />
-      <section id="aboutus">
-        <Footer />
-      </section>
+
+
+  <Footer />
+</section>
 
       {/* <Footer /> */}
       <ScreenSizeIndicator />

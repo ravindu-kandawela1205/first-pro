@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 const menuItems = [
@@ -10,7 +10,44 @@ const menuItems = [
 
 export default function Navbarlist() {
   const [open, setOpen] = useState(false);
-  const [activeId, setActiveId] = useState("home"); // track active section
+  const [activeId, setActiveId] = useState("home"); 
+
+  // Custom scroll spy implementation
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      
+      // Calculate which section is in view
+      const sectionPositions = menuItems.map(item => {
+        const element = document.getElementById(item.id);
+        if (!element) return { id: item.id, top: -1, bottom: -1 };
+        
+        const rect = element.getBoundingClientRect();
+        return {
+          id: item.id,
+          top: rect.top + scrollPosition,
+          bottom: rect.bottom + scrollPosition
+        };
+      });
+
+      // Find the current active section
+      const currentSection = sectionPositions.find(section => 
+        scrollPosition >= section.top - 150 && 
+        scrollPosition < section.bottom - 150
+      );
+
+      if (currentSection && currentSection.id !== activeId) {
+        setActiveId(currentSection.id);
+      }
+    };
+
+    // Add scroll listener
+    window.addEventListener('scroll', handleScroll);
+    // Initial check
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [activeId]);
 
   const renderLinks = (isMobile = false) =>
     menuItems.map((item) => {
@@ -23,7 +60,7 @@ export default function Navbarlist() {
             duration={500}
             offset={-100}
             spy={true}
-            onSetActive={() => setActiveId(item.id)}
+            onSetActive={(id) => setActiveId(id)}
             onClick={() => isMobile && setOpen(false)}
             className={`relative block px-2 py-1 cursor-pointer text-[16px] font-poppins font-normal ${
               isActive ? "text-[#1090CB] font-bold" : "text-gray-700"
@@ -57,7 +94,6 @@ export default function Navbarlist() {
       <div className="max-w-[1440px] mx-auto flex justify-between items-center py-2 md:py-6 px-4 md:px-[32px] xl:px-[80px]">
         <div className="font-bold text-[#1090CB] text-[29px] font-poppins">LOGO</div>
 
-        {/* Mobile Hamburger */}
         <button
           className="md:hidden text-2xl text-gray-700"
           onClick={() => setOpen(!open)}

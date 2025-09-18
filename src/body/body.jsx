@@ -14,7 +14,7 @@ function Body() {
         <img
           src={Shape_right}
           alt="shape right"
-          className="absolute right-0 top hidden lg:block"
+          className="absolute right-0 top hidden xl:block lg:block"
         />
         <img
           src={Shape_left}

@@ -37,16 +37,16 @@ export default function Services() {
         {services.map((service, i) => (
           <div
             key={i}
-            className="flex items-center gap-[31px]"
+            className="flex items-center gap-[31px] "
           >
             {/* Icon */}
             <div
-              className={`w-[70px] h-[70px] flex items-center justify-center rounded-2xl ${service.bg}`}
+              className={`w-[70px] h-[70px] xl:w-[70px] xl:h-[70px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded-2xl ${service.bg}`}
             >
               <img
                 src={service.icon}
                 alt={service.title}
-                className="w-9 h-9 hover:scale-140 transition-transform duration-300"
+                className="w-9 h-9  hover:scale-140 transition-transform duration-300"
               />
             </div>
 

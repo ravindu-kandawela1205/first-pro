@@ -23,10 +23,11 @@ const socail = [
 
 export default function socialmedia() {
   return (
+  
     <footer className="w-full bg-white">
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-0 md:mt-[87px] md:mb-[53px] grid grid-cols-1 md:grid-cols-4  leading-10 gap-2 md:gap-[50px] ">
         <div className="w-full text-center md:text-left">
-          <h2 className="text-blue-700 font-bold text-lg mb-3">LOGO</h2>
+          <h2 className="text-blue-700 font-bold text-lg mb-3 mt-2">LOGO</h2>
           <p className="text-gray-600 text-sm mb-3">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -58,7 +59,7 @@ export default function socialmedia() {
       key={i}
       src={sc.path}
       alt=""
-      className="w-20 h-20 md:w-[60px] md:h-[60px]  justify-center flex-shrink-0 hover:scale-110 transition-transform duration-300"
+      className="w-20 h-20 md:w-[60px] md:h-[60px]  justify-center flex-shrink-0 hover:scale-120 transition-transform duration-300"
     />
   ))}
 </div>
