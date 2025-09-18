@@ -1,46 +1,52 @@
-import bellIcon from "../assets/Images/bellang.png";
+import bell from '../assets/images/bell.png';
 
-export default function CardsSection() {
-  return (
-    <div className="flex flex-col md:flex-row px-4 justify-center items-center gap-8 md:gap-[25px] py-16 md:py-0 bg-white md:mt-[248px]">
-      <section id="services"></section>
-      <div className="relative bg-[#F4F4F4] text-white rounded-xl px-6 py-12 text-center shadow-lg  md:w-[550px] md:h-[500px]">
-         
-        
-        <h3 className="md:mt-[64px] text-lg md:text-[25px] font-semibold text-gray-900 mx-auto max-w-[400px] break-words">
-          Lorem Ipsum is simply span dummy text.
-        </h3>
-
-        <p className="mt-4 md:mt-[36px] text-[#545454] font-normal leading-relaxed text-sm md:text-[16px]">
-          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-          applications and website builders measuring dozens of completed
-          projects. We build and develop mobile applications for several top
-          platforms, including Android & IOS.
+const CardsSection = () => (
+  <section className="bg-white py-24 relative overflow-hidden max-w-[1440px] mx-auto" id='services'>
+    <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-12">
+      
+      <div className="bg-gray-100 rounded-2xl shadow-lg p-12 max-w-lg w-full">
+        <h2 className="text-3xl font-semibold text-center text-gray-900 mb-6">
+          Lorem Ipsum is simply dummy text.
+        </h2>
+        <p className="text-lg text-center text-gray-600 leading-relaxed mb-10">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications
+          and website builders measuring dozens of completed projects. We build and develop
+          mobile applications for several top platforms, including Android & IOS.
         </p>
-        <button className="mt-6 md:mt-[40px] w-[153px] h-[49px] bg-[#1090CB] hover:bg-cyan-700 text-white font-medium rounded-md transition">
-          View More
-        </button>
+        <div className="flex justify-center md:justify-center space-x-4">
+          <a
+            href="#"
+            className="bg-sky-600 text-white px-8 py-3 rounded-lg font-bold shadow-lg hover:bg-sky-600 transition-colors duration-200"
+          >
+            View more
+          </a>
+        </div>
       </div>
 
-      <div className="relative bg-[#1090CB] text-white rounded-xl px-6 py-12 text-center shadow-lg  md:w-[550px] md:h-[500px]">
-        <img
-          src={bellIcon}
-          alt="bell"
-          className="absolute -top-12 md:-top-[60px] right-6 w-24 h-24 md:w-[120.26px] md:h-[120.26px] transform rotate-12 hover:rotate-0 transition"
-        />
-        <h3 className="text-lg md:mt-[64px] md:text-[25px] font-semibold  mx-auto max-w-[300px] break-words">
+      <div className="absolute w-90 h-90 bg-pink-200 blur-2xl rounded-full bottom-5 right-10 opacity-50 z-0"></div>
+
+      <div className="group relative bg-sky-600 rounded-2xl shadow-lg p-12 max-w-lg w-full">
+        <h2 className="text-3xl font-semibold text-center text-white mb-6">
           Lorem Ipsum is simply dummy text.
-        </h3>
-        <p className="mt-4 md:mt-[36px] text-[#FFFFFF] font-normal leading-relaxed text-sm md:text-[16px]">
-          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-          applications and website builders measuring dozens of completed
-          projects. We build and develop mobile applications for several top
-          platforms, including Android & IOS.
+        </h2>
+        <p className="text-lg text-center text-white leading-relaxed mb-10">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications
+          and website builders measuring dozens of completed projects. We build and develop
+          mobile applications for several top platforms, including Android & IOS.
         </p>
-        <button className="mt-6 md:mt-[40px]  w-[153px] h-[49px] bg-white text-[#1090CB] font-medium rounded-md hover:bg-gray-100 transition">
-          View More
-        </button>
+        <div className="flex justify-center md:justify-center space-x-4">
+          <a
+            href="#"
+            className="bg-white text-sky-600 px-8 py-3 rounded-lg font-bold shadow-lg ring-1 ring-gray-200 hover:bg-gray-100 transition-colors duration-200"
+          >
+            View more
+          </a>
+        </div>
+
+        <img src={bell} alt="" className="absolute top-0 right-[40px] w-[120px] -translate-y-1/2 translate-x-1/3 rotate-[20.37deg] z-50 group-hover:rotate-[15deg] transition-transform duration-[500ms]"/>
       </div>
     </div>
-  );
-}
+  </section>
+);
+
+export default CardsSection;
