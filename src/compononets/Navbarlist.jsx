@@ -16,29 +16,30 @@ const Header = () => {
     const handleScroll = () => {
       // Skip scroll detection if user manually selected a page
       if (isManualSelection) return;
-      
-      const scrollPosition = window.scrollY + window.innerHeight / 2;
 
-      navLinks.forEach((link) => {
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      const buffer = 50; // px buffer to reduce overlap
+      for (let link of navLinks) {
         const section = document.querySelector(link.href);
         if (section) {
-          const top = section.offsetTop;
-          const bottom = top + section.offsetHeight;
+          const top = section.offsetTop - buffer;
+          const bottom = top + section.offsetHeight + buffer;
           if (scrollPosition >= top && scrollPosition < bottom) {
             setActivePage(link.name);
+            break; // Only set the first matching section
           }
         }
-      });
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
     handleScroll();
-    
+
     // Reset manual selection after a delay
     const timer = setTimeout(() => {
       setIsManualSelection(false);
     }, 1000);
-    
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
       clearTimeout(timer);

@@ -3,7 +3,7 @@ import React from "react";
 export default function text() {
   return (
     <div>
-      <section id="footer">
+      
       <div className="flex items-center justify-center py-10 px-10 md:py-[115px] md:px-[297px] bg-white   ">
         <div className="text-center max-w-auto gap-[32px] ">
           
@@ -19,7 +19,7 @@ export default function text() {
           <p className="text-gray-500 text-[18px]">Lorem Ipsum has been the industry's</p>
         </div>
       </div>
-     </section>
+     
     </div>
   );
 }
