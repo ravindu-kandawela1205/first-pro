@@ -1,7 +1,7 @@
 import facebook from "../assets/Images/facbook.png";
 import twiiter from "../assets/Images/twiiter.png";
 import linkdin from "../assets/Images/linkdin.png";
-import Insta from "../assets/Images/insta.png";
+import Insta from "../assets/Images/Insta.png";
 
 const socail = [
   {
