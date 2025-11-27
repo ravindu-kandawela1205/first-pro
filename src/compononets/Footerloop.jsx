@@ -73,7 +73,7 @@ export default function socialmedia() {
         <p className="text-[#686868] font-normal text-[13px]">
           Copyright © 2021 Lorem All rights Reserved
         </p>
-  <section id="footer"></section>
+  
       </div>
     </footer>
   

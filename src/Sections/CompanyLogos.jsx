@@ -7,7 +7,7 @@ import leotrippi from "../assets/Images/leotrippi.png";
 function CompanyLogos() {
   return (
     <div>
-      <div className="w-full bg-white py-10">
+      <section id="blog" className="w-full bg-white py-10">
         <div className="text-center mb-8">
           <h2 className="text-lg font-bold text-gray-800 text-[24px]">
             You will be in good Company
@@ -36,7 +36,7 @@ function CompanyLogos() {
             className="h-[185px] w-[185px]  object-contain"
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 }
